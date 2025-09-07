@@ -1,5 +1,5 @@
 const createElement = (arr) =>{
-    const htmlElements = arr.map(element => `<span class="btn">${element}</span>`)
+    const htmlElement = arr.map(element => `<span class="btn">${element}</span>`)
     return htmlElement;
 }
 
