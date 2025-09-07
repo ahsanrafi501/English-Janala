@@ -1,6 +1,6 @@
 const createElement = (arr) =>{
     const htmlElement = arr.map(element => `<span class="btn">${element}</span>`)
-    return htmlElement;
+    return htmlElement.join(" ");
 }
 
 
